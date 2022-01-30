@@ -1,7 +1,6 @@
 
 import axios from 'axios';
 import React, {  useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import endpoint from '../helpers/Urls';
 
 
@@ -61,9 +60,9 @@ console.log(frase);
                     <p  id="author"> - {mostrarfrase.Autor}</p>
             
                 <div className='botones'>
-                    <Link to={"https://twitter.com/Xiomara_G5"} id="tweet-quote" target="_blank" rel="noopener">
+                    <a href="https://twitter.com/Xiomara_G5" id="tweet-quote" target="_blank" rel="noopener">
                     <i className="bi bi-twitter"></i>
-                    </Link>
+                    </a>
                     <button className='btn' onClick={handleClick }> Siguiente frase</button>
                 </div>
             </div>
