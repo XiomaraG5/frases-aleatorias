@@ -61,7 +61,7 @@ console.log(frase);
                     <p  id="author"> - {mostrarfrase.Autor}</p>
             
                 <div className='botones'>
-                    <Link to="https://twitter.com/Xiomara_G5" id="tweet-quote" target="_blank" rel="noopener">
+                    <Link to={"https://twitter.com/Xiomara_G5"} id="tweet-quote" target="_blank" rel="noopener">
                     <i className="bi bi-twitter"></i>
                     </Link>
                     <button className='btn' onClick={handleClick }> Siguiente frase</button>
